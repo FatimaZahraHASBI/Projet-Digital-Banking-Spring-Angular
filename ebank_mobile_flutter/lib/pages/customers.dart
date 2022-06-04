@@ -26,8 +26,6 @@ class _CustomersState extends State<Customers> {
         name: c['name'],
         email: c['email'],
       );
-      print("Bonjour 2");
-      print(c['name']);
       customers.add(customer);
     }
     return customers;
